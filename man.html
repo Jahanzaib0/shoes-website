@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myonlineshoes.com</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .head{
+    background-color: black;
+    color: white;
+    height: 53px;
+    width: 100vw;
+    font-size: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px 2px;
+    cursor: pointer;
+
+}
+        .nav{
+    display: flex;
+    height: 82px;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* border: 2px solid red; */
+    background-color: rgb(85, 79, 79);
+    
+
+}
+
+.nav ul{
+    display:flex;
+    
+    
+}
+.nav li{
+    display: flex;
+    list-style: none;
+   
+    align-items: center;
+    
+    
+}
+.nav li a{
+        font-size: 1.2rem;
+         text-decoration: none;
+         margin-left: 40px;
+         padding: 3px 2px;
+         color: white;
+         display: flex;
+         align-items: center;
+         font-size: 1.3rem;
+}
+.nav li a:hover{
+    color: rgb(41, 32, 32);
+}
+div.gallery {
+  border: 1px solid #ccc;
+  margin: 0.8rem;
+  color: aliceblue;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 13rem;
+  
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 23px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    </style>
+</head>
+<body>
+       <nav class="nav">
+        <ul>
+            <li class="items"> <a href="/index.html" > Home</a ></li>
+            <li class="items"> <a href="/man.html"> Mans wear</a></li>
+            <li class="items"> <a href="/women.html" > womens wear</a></li>
+            <li class="items"> <a href="/contact.html" > Contact us</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2 class="head">Man Show case</h2>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/1.jpg">
+      <img src="img/1.jpg" alt="Shoes" width="600" height="400">
+    </a>
+    <div class="desc">Price 12k</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/2.jpg">
+      <img src="img/2.jpg" alt="shoes" width="600" height="400">
+    </a>
+    <div class="desc">price 14k</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/3.jpg">
+      <img src="img/3.jpg" alt="shoes" width="600" height="400">
+    </a>
+    <div class="desc">price 35k</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/4.jpg">
+      <img src="img/4.jpg" alt="shoes" width="600" height="400">
+    </a>
+    <div class="desc">Price 11k</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/5.jpg">
+      <img src="img/5.jpg" alt="shoes" width="600" height="400">
+    </a>
+    <div class="desc">Price 17k</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/6.jpg">
+      <img src="img/6.jpg" alt="shoes" width="600" height="400">
+    </a>
+    <div class="desc">Price 13k</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/7.jpg">
+      <img src="img/7.jpg" alt="shoes" width="600" height="400">
+    </a>
+    <div class="desc">Price 21k</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/8.jpg">
+      <img src="img/8.jpg" alt="shoes" width="600" height="400">
+    </a>
+    <div class="desc">Price 11k</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/9.jpg">
+      <img src="img/9.jpg" alt="shoes" width="600" height="400">
+    </a>
+    <div class="desc">Price 11k</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/10.jpg">
+      <img src="img/10.jpg" alt="shoes" width="600" height="400">
+    </a>
+    <div class="desc">Price 11k</div>
+  </div>
+</div>
+
+
+    </section>
+
+</body>
+</html>
